@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+}
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+  
+  #image-track > .image {
+    width: 45vmin;
+    height: 65vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }

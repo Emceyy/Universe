@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .imagecontainer{
+    width:100vw;
+    height: 100%;
+    position: relative;
+}
+
+.img{
+    width: 120%; 
+    object-fit: cover;
+}
+
+
